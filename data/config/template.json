@@ -2,65 +2,79 @@
     "video":{
         "width": 1920,
         "height": 1080,
-        "fps":60
-    },
+        "fps":60,
 
-    "encoder":{
-        "provider": {
-            "type": "basicBlock",
-            "lengthReader": "basicBlock.rawIp",
-            "basicBlockSettings": {
-                "blockSize": 16,
-                "colorCodec": {
-                    "type": "rgbPalette",
-                    "bitsPerNumber": 4,
-                    "rgbPaletteSettings": {
-                        "palette":[
-                            "#000000",
-                            "#F0F0F0",
-                            "#0070F0",
-                            "#70F000",
-                            "#F00070",
-                            "#808080",
-                            "#00F080",
-                            "#8000F0",
-                            "#F08000",
-                            "#009010",
-                            "#100090",
-                            "#60E0F0",
-                            "#901000",
-                            "#E0F060",
-                            "#F060E0",
-                            "#107080"
-                        ]
+        "encoder":{
+            "provider": {
+                "type": "basicBlock",
+                "basicBlockSettings": {
+                    "blockSize": 16,
+                    "colorCodec": {
+                        "type": "rgbPalette",
+                        "bitsPerNumber": 4,
+                        "rgbPaletteSettings": {
+                            "palette":[
+                                "#000000",
+                                "#F0F0F0",
+                                "#0070F0",
+                                "#70F000",
+                                "#F00070",
+                                "#808080",
+                                "#00F080",
+                                "#8000F0",
+                                "#F08000",
+                                "#009010",
+                                "#100090",
+                                "#60E0F0",
+                                "#901000",
+                                "#E0F060",
+                                "#F060E0",
+                                "#107080"
+                            ]
+                        }
                     }
+                },
+                "lengthReader":{
+                    "type": "basicBlock.rawIp",
+                    "basicBlock.rawIpSettings": { }
                 }
             },
-            "basicBlock.rawIpSettings": { }
+            "compressor":{
+                "type": "none"
+            },
+            "obfuscator": {
+                "type": "none"
+            },
+            "corrector": {
+                "type": "none"
+            }
         },
-        "compressor":{
-            
-        },
-        "obfuscator": {
-
-        },
-        "corrector": {
-
+        
+        "pipes":{
+            "in":{
+                "type":"ffmpegRtmp",
+                "ffmpegRtmpSettings":{
+                    "rtmpUrl":"rtmp://my.path/my-secret-key"
+                }
+            },
+            "out":{
+                "type":"ffmpegRtmp",
+                "ffmpegRtmpSettings":{
+                    "rtmpUrl":"rtmp://my.path/my-secret-key"
+                }
+            }
         }
     },
-    
-    "pipes":{
-        "in":{
-            "type":"ffmpegRtmp",
-            "ffmpegRtmpSettings":{
-                "rtmpUrl":"rtmp://my.path/my-secret-key"
-            }
-        },
-        "out":{
-            "type":"ffmpegRtmp",
-            "ffmpegRtmpSettings":{
-                "rtmpUrl":"rtmp://my.path/my-secret-key"
-            }
-        }
+
+    "socket":{
+        "address": "127.0.0.1",
+        "port": 1234,
+        "protocol": "tcp"
+    },
+
+    "estimateStrategy":{
+        "type": "basicBlockStrategy",
+        "threshold": "60%",
+        "timeout": "500ms"
     }
 }

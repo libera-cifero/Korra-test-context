@@ -1,0 +1,1 @@
+deobfuscate -> correct -> provide bytes -> decompress

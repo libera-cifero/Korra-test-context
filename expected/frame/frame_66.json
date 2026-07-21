@@ -1,0 +1,40 @@
+{
+  "block_size": 163,
+  "blocks": [
+    2,
+    11,
+    3,
+    14,
+    3,
+    8,
+    1,
+    9
+  ],
+  "colorCodec": {
+    "rgbPaletteSettings": {
+      "bitsPerNumber": 4,
+      "palette": [
+        "#000000",
+        "#f0f0f0",
+        "#0070f0",
+        "#70f000",
+        "#f00070",
+        "#808080",
+        "#00f080",
+        "#8000f0",
+        "#f08000",
+        "#009010",
+        "#100090",
+        "#60e0f0",
+        "#901000",
+        "#e0f060",
+        "#f060e0",
+        "#107080"
+      ]
+    },
+    "type": "rgbPalette"
+  },
+  "frame_height": 253,
+  "frame_path": "frame_66.bmp",
+  "frame_width": 1392
+}
