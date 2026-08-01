@@ -1,1 +1,1 @@
-deobfuscate -> correct -> provide bytes -> decompress
+[frames] -> provide bytes -> decrypt -> correct -> [data]

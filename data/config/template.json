@@ -5,6 +5,15 @@
         "fps":60,
 
         "encoder":{
+            "compressor":{
+                "type": "none"
+            },
+            "corrector": {
+                "type": "none"
+            },
+            "cipher": {
+                "type": "none"
+            },
             "provider": {
                 "type": "basicBlock",
                 "basicBlockSettings": {
@@ -54,15 +63,6 @@
                     "type": "basicBlock.rawIp",
                     "basicBlock.rawIpSettings": { }
                 }
-            },
-            "compressor":{
-                "type": "none"
-            },
-            "obfuscator": {
-                "type": "none"
-            },
-            "corrector": {
-                "type": "none"
             }
         },
         

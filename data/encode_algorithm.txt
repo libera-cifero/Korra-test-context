@@ -1,1 +1,1 @@
-compress -> provide video -> correct -> obfuscate
+[data] -> correct -> encrypt -> provide video -> [frames]
