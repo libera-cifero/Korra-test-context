@@ -1,0 +1,446 @@
+[
+  {
+    "frameWidth": "1280",
+    "frameHeight": 720,
+    "fps": "30",
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": "8",
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 3,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#F8F8F8",
+                "#0078F8",
+                "#F80078",
+                "#78F800",
+                "#909090",
+                "#00F880",
+                "#8000F8",
+                "#F88000"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 1920,
+    "frameHeight": "1080",
+    "fps": 60,
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 16,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": "4",
+            "rgbPaletteSettings": {
+              "palette": [
+                "#000000",
+                "#F8F8F8",
+                "#0078F8",
+                "#78F800",
+                "#F80078",
+                "#909090",
+                "#00F880",
+                "#8000F8",
+                "#F88000",
+                "#009808",
+                "#080098",
+                "#980800",
+                "#60F8F8",
+                "#F860F8",
+                "#F8F860",
+                "#484848"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 2560,
+    "frameHeight": "1440",
+    "fps": "60",
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 32,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 2,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#18F818",
+                "#E800E0",
+                "#484848",
+                "#F87070"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": "1024",
+    "frameHeight": "768",
+    "fps": 25,
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": "4",
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": "5",
+            "rgbPaletteSettings": {
+              "palette": [
+                "#000000",
+                "#F8F8F8",
+                "#0078F8",
+                "#78F800",
+                "#F80078",
+                "#909090",
+                "#00F880",
+                "#8000F8",
+                "#F88000",
+                "#009808",
+                "#080098",
+                "#980800",
+                "#60F8F8",
+                "#F860F8",
+                "#F8F860",
+                "#484848",
+                "#008888",
+                "#7070F8",
+                "#70F870",
+                "#880088",
+                "#888800",
+                "#F87070",
+                "#00E0E8",
+                "#E0E800",
+                "#E800E0",
+                "#1818F8",
+                "#18F818",
+                "#F81818",
+                "#B0B8E8",
+                "#4848A8",
+                "#48A848",
+                "#A84848"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 3840,
+    "frameHeight": 2160,
+    "fps": "120",
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 64,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 4,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#E0E800",
+                "#1818F8",
+                "#A84848",
+                "#00E0E8",
+                "#888800",
+                "#F81818",
+                "#48A848",
+                "#F8F860",
+                "#880088",
+                "#7070F8",
+                "#B0B8E8",
+                "#18F818",
+                "#980800",
+                "#F860F8",
+                "#008888",
+                "#60F8F8"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 800,
+    "frameHeight": "600",
+    "fps": "24",
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 8,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 3,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#980800",
+                "#00F880",
+                "#F8F8F8",
+                "#080098",
+                "#48A848",
+                "#F860F8",
+                "#0078F8",
+                "#888800"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": "1600",
+    "frameHeight": 900,
+    "fps": 50,
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": "16",
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 2,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#F88000",
+                "#60F8F8",
+                "#000000",
+                "#A84848"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 1366,
+    "frameHeight": "768",
+    "fps": 30,
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 32,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": "5",
+            "rgbPaletteSettings": {
+              "palette": [
+                "#F8F860",
+                "#008888",
+                "#F81818",
+                "#7070F8",
+                "#18F818",
+                "#484848",
+                "#E800E0",
+                "#78F800",
+                "#00E0E8",
+                "#8000F8",
+                "#909090",
+                "#F87070",
+                "#009808",
+                "#F88000",
+                "#B0B8E8",
+                "#080098",
+                "#60F8F8",
+                "#980800",
+                "#E0E800",
+                "#F860F8",
+                "#0078F8",
+                "#880088",
+                "#888800",
+                "#00F880",
+                "#F8F8F8",
+                "#1818F8",
+                "#48A848",
+                "#F80078",
+                "#70F870",
+                "#4848A8",
+                "#A84848",
+                "#000000"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": "2048",
+    "frameHeight": 1152,
+    "fps": "60",
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": 4,
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": 3,
+            "rgbPaletteSettings": {
+              "palette": [
+                "#E800E0",
+                "#009808",
+                "#F8F8F8",
+                "#8000F8",
+                "#484848",
+                "#F87070",
+                "#78F800",
+                "#00E0E8"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  },
+  {
+    "frameWidth": 720,
+    "frameHeight": "1280",
+    "fps": 25,
+    "frameCodec": {
+      "cipher": {
+        "type": "none"
+      },
+      "provider": {
+        "type": "mosaic",
+        "mosaicSettings": {
+          "blockSize": "16",
+          "blockCodec": {
+            "type": "rgbPalette",
+            "bitsPerNumber": "4",
+            "rgbPaletteSettings": {
+              "palette": [
+                "#F81818",
+                "#48A848",
+                "#080098",
+                "#F8F8F8",
+                "#70F870",
+                "#E0E800",
+                "#484848",
+                "#00F880",
+                "#F860F8",
+                "#888800",
+                "#1818F8",
+                "#60F8F8",
+                "#8000F8",
+                "#0078F8",
+                "#F87070",
+                "#A84848"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pipe": {
+      "type": "ffmpegRtmp",
+      "ffmpegRtmpSettings": {
+        "rtmpUrl": "rtmp://my.path/my-secret-key1"
+      }
+    }
+  }
+]
