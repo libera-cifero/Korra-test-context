@@ -5,18 +5,18 @@
             "height": 1080,
             "fps":60,
 
-            "encoder":{
+            "frameCodec":{
                 "cipher": {
                     "type": "none"
                 },
                 "provider": {
-                    "type": "basicBlock",
-                    "basicBlockSettings": {
+                    "type": "mosaic",
+                    "mosaicSettings": {
                         "blockSize": 16,
-                        "colorCodec": {
+                        "blockCodec": {
                             "type": "rgbPalette",
+                            "bitsPerNumber": 5,
                             "rgbPaletteSettings": {
-                                "bitsPerNumber": 5,
                                 "palette":[
                                     "#000000",
                                     "#F8F8F8",
@@ -53,10 +53,6 @@
                                 ]
                             }
                         }
-                    },
-                    "lengthReader":{
-                        "type": "basicBlock.rawIp",
-                        "basicBlock.rawIpSettings": { }
                     }
                 }
             },
@@ -74,13 +70,13 @@
             "height": 1080,
             "fps":60,
 
-            "encoder":{
+            "frameCodec":{
                 "cipher": {
                     "type": "none"
                 },
                 "provider": {
-                    "type": "basicBlock",
-                    "basicBlockSettings": {
+                    "type": "mosaic",
+                    "mosaicSettings": {
                         "blockSize": 16,
                         "colorCodec": {
                             "type": "rgbPalette",
@@ -124,8 +120,8 @@
                         }
                     },
                     "lengthReader":{
-                        "type": "basicBlock.rawIp",
-                        "basicBlock.rawIpSettings": { }
+                        "type": "mosaic.rawIp",
+                        "mosaic.rawIpSettings": { }
                     }
                 }
             },
@@ -144,3 +140,5 @@
         "protocol": "tcp"
     }
 }
+
+
