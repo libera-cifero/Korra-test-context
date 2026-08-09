@@ -8,6 +8,7 @@
             "mosaicSettings": {
                 "blockSize": 16,
                 "blockCodec": {
+                    "type":"rgbPalette",
                     "bitsPerNumber": 4,
                     "rgbPaletteSettings": {
                         "palette": [
