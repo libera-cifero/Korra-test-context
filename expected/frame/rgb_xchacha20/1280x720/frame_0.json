@@ -50,8 +50,10 @@
             }
         },
         "cipher": {
-            "type": "none",
-            "noneSettings": {}
+            "type": "xchacha20",
+            "xchacha20Settings": {
+                "password": "test-password-12345"
+            }
         }
     },
     "data": {
