@@ -1,9 +1,21 @@
 {
+    "tun":{
+        "name": "korra_tun",
+        "ip": "10.123.45.67/24"
+    },
+    "gateway":{
+        "address": "22.138.45.93",
+        "#comment": "gateway is used on host only. Client doesn't need it"
+    },
     "in": [
         {
             "width": 1920,
             "height": 1080,
-            "fps":60,
+            "fps":60, 
+
+            "stream":{
+                "weight": 1
+            },
 
             "frameCodec":{
                 "cipher": {
@@ -59,7 +71,8 @@
             "pipe": {
                 "type":"ffmpegRtmp",
                 "ffmpegRtmpSettings":{
-                    "rtmpUrl":"rtmp://my.path/my-secret-key1"
+                    "rtmpUrl":"rtmp://my.path/my-secret-key1",
+                    "rtmpUrlFile":"../secret/ffmpegRtmp_in0"
                 }
             }
         }
@@ -69,6 +82,10 @@
             "width": 1920,
             "height": 1080,
             "fps":60,
+
+            "stream":{
+                "weight": 1
+            },
 
             "frameCodec":{
                 "cipher": {
@@ -128,17 +145,10 @@
             "pipe": {
                 "type":"ffmpegRtmp",
                 "ffmpegRtmpSettings":{
-                    "rtmpUrl":"rtmp://my.path/my-secret-key2"
+                    "rtmpUrl":"rtmp://my.path/my-secret-key2",
+                    "rtmpUrlFile": "../secret/ffmpegRtmp_out0"
                 }
             }
         }
-    ],
-
-    "socket":{
-        "address": "127.0.0.1",
-        "port": 1234,
-        "protocol": "tcp"
-    }
+    ]
 }
-
-
