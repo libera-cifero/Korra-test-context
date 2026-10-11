@@ -1,7 +1,6 @@
 {
     "tun":{
-        "name": "korra_tun_A",
-        "address": "10.18.193.1/24"
+        "address": "10.18.193.1"
     },
     "gateway":{
         "address": "22.138.45.93",
@@ -15,16 +14,13 @@
         "pipe": {
             "type":"ffmpegRtmp",
             "ffmpegRtmpSettings":{
-                "rtmpUrlFile":"test/context/data/secret/ffmpegRtmp_in.link"
+                "rtmpUrl":"rtmp://192.168.56.4:1935/live/socket_A"
             }
         },
         
         "frameCodec":{
             "cipher": {
-                "type": "xchacha20",
-                "xchacha20Settings":{
-                    "keyFile":"test/context/data/secret/xchacha20_A.key"
-                }
+                "type": "none"
             },
             "provider": {
                 "type": "mosaic",
@@ -82,16 +78,13 @@
         "pipe": {
             "type":"ffmpegRtmp",
             "ffmpegRtmpSettings":{
-                "rtmpUrlFile": "test/context/data/secret/ffmpegRtmp_out.link"
+                "rtmpUrl": "rtmp://192.168.56.1:1935/live/socket_B"
             }
         },
         
         "frameCodec":{
             "cipher": {
-                "type": "xchacha20",
-                "xchacha20Settings":{
-                    "keyFile":"test/context/data/secret/xchacha20_A.key"
-                }
+                "type": "none"
             },
             "provider": {
                 "type": "mosaic",

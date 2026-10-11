@@ -1,0 +1,19 @@
+{
+    "frameWidth": 1280,
+    "frameHeight": 720,
+    "fps":30,
+    "pipe": {
+        "in":{
+            "type":"ffmpegRtmp",
+            "ffmpegRtmpSettings":{
+                "rtmpUrlFile":"test/context/data/secret/ffmpegRtmp_in.link"
+            }
+        },
+        "out": {
+            "type":"ffmpegRtmp",
+            "ffmpegRtmpSettings":{
+                "rtmpUrlFile":"test/context/data/secret/ffmpegRtmp_in.link"
+            }
+        }
+    }
+}
